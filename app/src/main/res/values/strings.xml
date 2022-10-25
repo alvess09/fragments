@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fragments-Brasil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uniforme_1">Uniforme 1</string>
+    <string name="uniforme_2">Uniforme 2</string>
+    <string name="icon_ball">icon_ball</string>
+    <string name="uniformes_copa_2022">Uniformes Copa 2022</string>
+    <string name="logo_copa_qatar_2022">logo copa qatar 2022</string>
+    <string name="logo_cbf">logo cbf</string>
+</resources>

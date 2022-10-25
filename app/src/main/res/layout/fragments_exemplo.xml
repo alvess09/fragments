@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/silver">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/blue_shirt"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_uniforme_1"
+            android:layout_width="192dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="22dp"
+            android:gravity="center"
+            android:text="@string/uniforme_1"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <ImageView
+            android:id="@+id/iv_android_un1"
+            android:layout_width="50dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="22dp"
+            android:contentDescription="@string/icon_ball"
+            app:srcCompat="@drawable/sports_soccer"
+            app:tint="@color/yellow_shirt"
+            tools:layout_editor_absoluteX="241dp"
+            tools:layout_editor_absoluteY="10dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_uniforme_2"
+        android:layout_width="545dp"
+        android:layout_height="735dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.377"
+        app:srcCompat="@drawable/brasil1"
+        android:contentDescription="@string/uniforme_1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
