@@ -1,4 +1,4 @@
-# Fragments
+# Fragments 🧩
 
 Este projeto é a implementação com base no estudo de <br/>
 Fragments, usei como base o video do Kaique Ocanha e a <br/>
