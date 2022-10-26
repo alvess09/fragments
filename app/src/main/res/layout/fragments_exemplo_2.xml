@@ -6,58 +6,16 @@
     android:layout_height="match_parent"
     android:background="@color/light_gray">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="110dp"
-        android:background="@color/yellow_shirt"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:id="@+id/tv_uniforme_2"
-            android:layout_width="192dp"
-            android:layout_height="match_parent"
-            android:layout_marginStart="25dp"
-            android:layout_marginEnd="22dp"
-            android:gravity="center"
-            android:text="@string/uniforme_2"
-            android:textColor="@color/white"
-            android:textSize="34sp"
-            android:textStyle="bold"
-            tools:layout_editor_absoluteX="33dp"
-            tools:layout_editor_absoluteY="33dp" />
-
-        <ImageView
-            android:id="@+id/iv_android_un2"
-            android:layout_width="50dp"
-            android:layout_height="110dp"
-            android:layout_gravity="center"
-            android:layout_marginStart="12dp"
-            android:layout_marginEnd="22dp"
-            android:contentDescription="@string/icon_ball"
-            app:srcCompat="@drawable/sports_soccer"
-            app:tint="@color/blue_shirt"
-            tools:layout_editor_absoluteX="241dp"
-            tools:layout_editor_absoluteY="10dp" />
-
-    </LinearLayout>
 
     <ImageView
         android:id="@+id/iv_uniforme_2"
-        android:layout_width="545dp"
-        android:layout_height="735dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="12dp"
+        android:layout_width="414dp"
+        android:layout_height="656dp"
+        android:contentDescription="@string/uniforme_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintHorizontal_bias="0.431"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.377"
-        app:srcCompat="@drawable/brasil2"
-        android:contentDescription="@string/uniforme_2"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/brasil2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

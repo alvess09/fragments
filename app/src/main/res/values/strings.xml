@@ -8,4 +8,11 @@
     <string name="uniformes_copa_2022">Uniformes Copa 2022</string>
     <string name="logo_copa_qatar_2022">logo copa qatar 2022</string>
     <string name="logo_cbf">logo cbf</string>
+    <string name="comprar">Comprar</string>
+    <string name="btn_add">btn add</string>
+    <string name="btn_remove">btn remove</string>
+    <string name="valor_a_pagar">Valor a pagar: RS: 0,00</string>
+    <string name="value_default">0</string>
+    <string name="amarela">Amarela</string>
+    <string name="azul">Azul</string>
 </resources>
